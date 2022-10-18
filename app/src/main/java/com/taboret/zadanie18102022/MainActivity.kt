@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.btn2).setOnClickListener {
-
+            textView.text = name
         }
     }
 }
